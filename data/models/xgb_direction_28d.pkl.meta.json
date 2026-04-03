@@ -186,28 +186,28 @@
     "intraday_trend"
   ],
   "feature_hash": "fcbb0e476508b1b29ae1a2161f021d920c8eafc2ad4012cfc779930d77539774",
-  "pos_rate": 0.473992673992674,
-  "scale_pos_weight": 1.1097372488408037,
+  "pos_rate": 0.5575091575091575,
+  "scale_pos_weight": 0.7936925098554533,
   "params": {
     "n_estimators": 100,
-    "max_depth": 5,
+    "max_depth": 7,
     "learning_rate": 0.05,
     "subsample": 0.8,
-    "colsample_bytree": 1.0,
+    "colsample_bytree": 0.7,
     "reg_alpha": 0,
-    "reg_lambda": 3.0
+    "reg_lambda": 1.0
   },
-  "cv_avg_logloss": 0.6954420154723671,
-  "cv_avg_accuracy": 0.9597701149425287,
+  "cv_avg_logloss": 0.7598500809483453,
+  "cv_avg_accuracy": 0.9971264367816092,
   "holdout": {
     "n": 98,
-    "accuracy": 0.9081632653061225,
-    "logloss": 0.327670158539785,
-    "auc": 0.9353667392883079,
+    "accuracy": 0.8673469387755102,
+    "logloss": 0.38807404326901007,
+    "auc": 0.8967948717948718,
     "precision_recall": [
-      0.7,
-      0.8235294117647058
+      0.6060606060606061,
+      1.0
     ]
   },
-  "created_at": "2026-04-03T21:08:33.630875Z"
+  "created_at": "2026-04-03T21:25:00.176176Z"
 }

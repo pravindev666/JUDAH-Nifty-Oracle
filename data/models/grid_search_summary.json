@@ -98,5 +98,30 @@
                 0.8235294117647058
             ]
         }
+    },
+    "28": {
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 7,
+            "learning_rate": 0.05,
+            "subsample": 0.8,
+            "colsample_bytree": 0.7,
+            "reg_alpha": 0,
+            "reg_lambda": 1.0
+        },
+        "avg_robust_logloss": 0.7598500809483453,
+        "final_accuracy": 0.9971264367816092,
+        "final_logloss": 0.1290285357495301,
+        "final_auc": 0.9999666132478633,
+        "holdout": {
+            "n": 98,
+            "accuracy": 0.8673469387755102,
+            "logloss": 0.38807404326901007,
+            "auc": 0.8967948717948718,
+            "precision_recall": [
+                0.6060606060606061,
+                1.0
+            ]
+        }
     }
 }
